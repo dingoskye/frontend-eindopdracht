@@ -4,6 +4,7 @@
 
 html {
     font-size: 18px;
+    line-height: 1.5;
     scroll-behavior: smooth;
 }
 
@@ -224,11 +225,24 @@ footer a {
 
 .center-container {
     margin: 15px;
+    margin-left: 500px;
     padding: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
+    align-items: center;
 }
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+form, #form {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+    justify-content: center;
+}
+
 
 .formfield {
     display: flex;
@@ -247,6 +261,19 @@ footer a {
     flex-direction: column;
     justify-content: center;
 }
+
+input, select, textarea, button {
+    border-radius: 5px;
+    border-color: #D64C97;
+}
+
+input[type=text], [type=date], [type=email] {
+    text-shadow: 10px #000000;
+    background-color: #fea8a8;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+  }
 
 .radios-container {
     display: flex;
