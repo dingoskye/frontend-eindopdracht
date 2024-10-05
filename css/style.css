@@ -252,3 +252,82 @@ footer a {
     display: flex;
     justify-items: center;
 }
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+    nav {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        flex-direction: column;
+    }
+
+    .text-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+ 
+    header {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    #header-buttons {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .product-container {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .background {
+        max-width: 100%;
+    }
+
+
+}
