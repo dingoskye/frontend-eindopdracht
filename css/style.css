@@ -221,3 +221,34 @@ footer a {
     margin: 15px;
     padding: 5px;
 }
+
+.center-container {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formfield-textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.justify-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.radios-container {
+    display: flex;
+    justify-items: center;
+}

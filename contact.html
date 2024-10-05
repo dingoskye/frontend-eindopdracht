@@ -14,17 +14,17 @@
         <div>
             <a href="index.html"><img src="images/crazy-colors-logo.jpg" alt="logo"></a>
         </div>
-        <div>
+        <div class="text-nav">
             <a href="https://www.crazycolor.co.uk/shop-all?page=2">Shop all</a>
             <a href="#form">form</a>
             <a href="https://www.crazycolor.co.uk/faqs">FAQ</a>
             <a href="https://pro.crazycolor.co.uk/?_gl=1%2A1i97fca%2A_gcl_au%2AOTgxMzMzNzkxLjE3Mjc4OTE4MDQ.">For
-                proffesionals</a>
+                profs</a>
             <a href="contact.html">Contact</a>
         </div>
     </nav>
     <header>
-        <div class="center-container">
+        <div>
             <h1>Contact</h1>
             <p> Welcome to our Contact Page! We're here to help you with all your hair dye needs, questions, and
                 concerns. Whether you're seeking product advice, need assistance with an order, or simply want to share
@@ -37,20 +37,28 @@
             <h2 id="form">Form</h2>
             <form action="thanks.html" method="POST">
                 <div class="formfield">
-                    <label for="first-name">First Name*</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
-                    <label for="last-name">Last Name*</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                    <div class="justify-form">
+                        <label for="first-name">First Name*</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="justify-form">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                    </div>
                 </div>
                 <div class="formfield">
                     <label for="email">E-mail*</label>
                     <input type="email" name="email" id="email" placeholder="email" required>
                 </div>
                 <div class="formfield">
-                    <label for="ordernumber">Order number*</label>
-                    <input type="text" name="ordernumber" id="city" placeholder="city">
-                    <label for="birthdate">Birthdate*</label>
-                    <input type="date" id="birthdate" name="birthdate" required>
+                    <div class="justify-form">
+                        <label for="ordernumber">Order number*</label>
+                        <input type="text" name="ordernumber" id="city" placeholder="city">
+                    </div>
+                    <div class="justify-form">
+                        <label for="birthdate">Birthdate*</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </div>
                 </div>
                 <div class="formfield">
                     <label for="topic">Topic*</label>
@@ -62,59 +70,58 @@
                         <option value="3">Subscriptions</option>
                     </select>
                 </div>
-                <div class="formfield-textarea"></div>
-                <label for="question">Your question*</label>
-                <textarea id="question" name="question"></textarea>
+                <div class="formfield-textarea">
+                    <label for="question">Your question*</label>
+                    <textarea id="question" name="question"></textarea>
+                </div>
+                <div class="formfield">
+                    <div>
+                        <span class="label">Subscribe to mailinglist*</span>
+                    </div>
+                    <div class="radios-container">
+                        <div>
+                            <input type="checkbox" id="yes" name="yes" value="yes" required>
+                            <label for="yes">Yes</label>
                         </div>
-                        <div class="formfield">
-                            <div>
-                                <span class="label">Subscribe to mailinglist*</span>
-                            </div>
-                            <div class="radios-container">
-                                <div>
-                                    <input type="checkbox" id="yes" name="yes" value="yes" required>
-                                    <label for="yes">Yes</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" id="no" name="no" value="no">
-                                    <label for="no">No</label>
-                                </div>
-                            </div>
+                        <div>
+                            <input type="checkbox" id="no" name="no" value="no">
+                            <label for="no">No</label>
                         </div>
-                        <div class="formfield-checkbox">
-                            <input type="checkbox" id="agreed" name="agreed" value="agreed" required>
-                            <label for="agreed">I agree to the terms and conditions*</label>
-                        </div>
-                        <div class="formfield">
-                            <button type="submit">submit</button>
-                        </div>
-                        <div class="formfield">
-                            <label for="must">* required fields</label>
-                        </div>
-                </form>
-         </section>
+                    </div>
+                </div>
+                <div class="formfield-checkbox">
+                    <input type="checkbox" id="agreed" name="agreed" value="agreed" required>
+                    <label for="agreed">I agree to the terms and conditions*</label>
+                </div>
+                <div class="formfield">
+                    <button type="submit">submit</button>
+                </div>
+                <div class="formfield">
+                    <label for="must">* required fields</label>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-            <div>
-                <a href="index.html"><img src="images/crazy-colors-logo.jpg" alt="logo"></a>
+        <div>
+            <a href="index.html"><img src="images/crazy-colors-logo.jpg" alt="logo"></a>
+        </div>
+        <div class="container-footer">
+            <div class="footer-left">
+                <p>&copy; 2024 dingoskye</p>
             </div>
-            <div class="container-footer">
-                <div class="footer-left">
-                    <p>&copy; 2024 dingoskye</p>
-                </div>
-                <div class="footer-right">
-                    <a href="https://www.crazycolor.co.uk/privacy-policy">Privacy Policy</a>
-                    <a href="https://www.crazycolor.co.uk/terms-and-conditions/">Terms & Conditions</a>
-                    <a href="https://www.crazycolor.co.uk/cookie-policy">Cookie Policy</a>
-                    <a href="contact.html">Contact</a>
-                </div>
+            <div class="footer-right">
+                <a href="https://www.crazycolor.co.uk/privacy-policy">Privacy Policy</a>
+                <a href="https://www.crazycolor.co.uk/terms-and-conditions/">Terms & Conditions</a>
+                <a href="https://www.crazycolor.co.uk/cookie-policy">Cookie Policy</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <div class="socials">
-                <a href="https://www.instagram.com/dingoskye/" class="fa fa-instagram"></a>
-                <a href="https://www.tumblr.com/dingoskye?source=share" class="fa fa-tumblr"></a>
-                <a href="https://www.snapchat.com/add/shial?share_id=6RFkQP8_jyo&locale=nl-NL"
-                    class="fa fa-snapchat"></a>
-            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/dingoskye/" class="fa fa-instagram"></a>
+            <a href="https://www.tumblr.com/dingoskye?source=share" class="fa fa-tumblr"></a>
+            <a href="https://www.snapchat.com/add/shial?share_id=6RFkQP8_jyo&locale=nl-NL" class="fa fa-snapchat"></a>
+        </div>
     </footer>
 </body>
 
