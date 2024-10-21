@@ -230,7 +230,6 @@ footer a {
 
 .center-container {
     margin: 15px;
-    margin-left: 200px;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -248,11 +247,12 @@ form, #form {
     justify-content: center;
 }
 
-
+/*  */
 .formfield {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .formfield-textarea {
@@ -265,6 +265,7 @@ form, #form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* margin:0.5rem; */
 }
 
 input, select, textarea, button {
